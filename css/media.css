@@ -1,0 +1,259 @@
+/*--------------- PHONE ----------------*/
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+
+  .we-doing {
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/main-background-mobile-2x.jpg);
+    }
+  }
+}
+
+/*--------------- TABLE ----------------*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .exposition-list {
+    row-gap: 72px;
+  }
+
+  .exposition-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .team-list {
+    gap: 24px;
+    row-gap: 64px;
+  }
+
+  .customers-main-block {
+    width: 100%;
+    gap: 72px 24px;
+  }
+
+  .customers-block {
+    flex-basis: calc((100% - 50px) / 3);
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 24px;
+    row-gap: 72px;
+    max-width: 582px;
+  }
+
+  .footer-box1 {
+    padding: 0;
+    padding-bottom: 0;
+    margin: 0;
+    justify-content: left;
+    text-align: left;
+  }
+
+  .footer-box2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-box-three {
+    padding-bottom: 0;
+  }
+
+  .portfolio-form {
+    gap: 24px;
+  }
+
+  .footer-text-media {
+    text-align: left;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/main-background-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/main-background-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+    line-height: 1.07;
+    max-width: 496px;
+    width: 496px;
+  }
+
+  .hero-btn {
+    margin: 36px auto 0px;
+  }
+}
+
+/*--------------- DESCTOP ----------------*/
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .exposition {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .exposition-subtitle {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .exposition-list {
+    gap: 24px;
+  }
+
+  .exposition-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .exposition-box {
+    display: flex;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    flex-wrap: nowrap;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .customers {
+    padding: 120px 0;
+  }
+
+  .customers-main-block {
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .customers-block {
+    width: calc((100% - 120px) / 6);
+  }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 0;
+    padding-top: 0;
+    gap: 0;
+  }
+
+  .footer-box1 {
+    margin-right: 120px;
+  }
+
+  .footer-text {
+    display: flex;
+  }
+
+  .footer-box2 {
+  }
+
+  .footer-box-three {
+    margin-left: auto;
+  }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/main-background.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/main-background-2x.jpg);
+    }
+  }
+
+  .hero-btn {
+    margin: 48px auto 0px;
+  }
+}
+
+@media (max-width: 1157px) {
+  .we-doing {
+    display: none;
+  }
+
+  .portfolio-form {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 763px) {
+  .header-socials {
+    display: none;
+  }
+  .header-menu-link {
+    display: none;
+  }
+}
